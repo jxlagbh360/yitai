@@ -1,0 +1,35 @@
+[
+	{
+		"id": 1,
+		"img": "images/images-1/banner-1.jpg"
+	},
+	{
+		"id": 2,
+		"img": "images/images-1/banner-2.jpg"
+	},
+	{
+		"id": 3,
+		"img": "images/images-1/banner-1.jpg"
+	},
+    {
+		"id": 4,
+		"img": "images/images-1/banner-4.jpg"
+	},
+	{
+		"id": 5,
+		"img": "images/images-1/banner-5.jpg"
+	},
+	{
+		"id": 6,
+		"img": "images/images-1/banner-6.jpg"
+	},
+	 {
+		"id": 7,
+		"img": "images/images-1/banner-7.jpg"
+	},
+	{
+		"id": 8,
+		"img": "images/images-1/banner-8.jpg"
+	}
+]
+
