@@ -1,0 +1,70 @@
+/*头部开始*/
+#header{height: 110px;background: #fff;}
+.header-inner{width: 1190px;height: 110px;margin: 0 auto;}
+
+/*头部上部开始*/
+
+
+.header-inner .h-logo{height:110px ;float: left;margin-top: 20px;}
+.header-inner .h-logo h1 a:first-child{display:block; width: 225px;height: 76px;background: url(../images/login/logo.gif) no-repeat;float: left;text-indent: -99999px;padding-right: 10px;border-right: 0;}
+.header-inner .h-logo h1 a:last-child{display:block; width: 120px;height: 24px;background: url(../images/login/header-login.png) no-repeat 10px 0;float: left;text-indent: -99999px;margin-top:40px;}
+
+.header-inner .h-right{width: 600px;height: 60px;padding-top: 50px;float: right;}
+/*.h-right ul{height:}*/
+.h-right ul li{float: right;}
+
+.h-right ul .delivery{width: 170px;height: 60px;padding-left: 25px;background: url(../images/footer-01.png) no-repeat 5px -75px;}
+.h-right ul .delivery strong{display: block;width: 130px;height: 20px;font-size: 14px;line-height: 20px;margin-left: 20px;margin-top:5px;}
+.h-right ul .delivery strong i{color: #f40;}
+.h-right ul .delivery b{display: block;width: 200px;height: 20px;line-height: 20px;color: #888;padding-left: 20px;}
+
+.h-right ul .genuine{width: 170px;height: 60px;padding-left: 25px;background: url(../images/footer-01.png) no-repeat 5px -75px;}
+.h-right ul .genuine strong{display: block;width: 130px;height: 20px;font-size: 14px;line-height: 20px;margin-left: 20px;margin-top:5px;}
+.h-right ul .genuine strong i{color: #f40;}
+.h-right ul .genuine b{display: block;width: 200px;height: 20px;line-height: 20px;color: #888;padding-left: 20px;}
+
+.h-right ul .freight{width: 170px;height: 60px;padding-left: 25px;background: url(../images/footer-01.png) no-repeat 5px -75px;}
+.h-right ul .freight strong{display: block;width: 130px;height: 20px;font-size: 14px;line-height: 20px;margin-left: 20px;margin-top:5px;}
+.h-right ul .freight strong i{color: #f40;}
+.h-right ul .freight b{display: block;width: 200px;height: 20px;line-height: 20px;color: #888;padding-left: 20px;}
+
+/*登录*/
+#main01-wrapper{height: 570px;background: #F9F9F9;}
+.main01{width: 1190px;height: 570px;margin: 0 auto;padding-top: 60px;}
+.main01 .m01-left{width: 780px;height: 460px;background: url(../images/login/big-pic01.jpg) no-repeat;float: left;}
+.main01 .m01-right{width:380px;height: 460px; float:left;margin-left: 20px;background: #fff;position: relative;s}
+
+.m01-right .list-01{width: 380px;height: 30px;padding-top:  10px;font-size: 14px;line-height: 20px;border-bottom: 2px solid #e5004f;}
+.m01-right .list-01 li{height: 30px;float: left;}
+.m01-right .list-01 li a{display: block;width: 380px; height: 20px;text-align: center;color: #333;}
+
+
+/*表单*/
+
+.m-form{width: 380px;height: 420px;background: #f3f3f3;position: relative;}
+
+.m-form p{width: 360px;height: 40px;font-size: 14px;line-height: 40px;text-align: right;padding-top: 12px;padding-right: 20px;}
+.m-form p a{color: #f40;font-size: 14px;}
+.m-form input{width: 340px;height: 20px;border-top: 1px solid #ccc; padding:10px 20px 10px;font-size: 16px;line-height: 20px;}
+.m-form span{display: block;width: 90px;height: 30px;line-height: 30px; text-align: center; border-radius: 5px;position: absolute;left: 270px;top: 98px; font-size: 14px;color: #666; border: 1px solid #333;cursor: pointer;}
+.m-form h5{color: #666666;padding-left: 10px;margin-top: 10px;}
+.m-form h4{color: #666666;padding-left: 10px;margin-top: 20px;}
+.m-form input:last-child{border-bottom: 1px solid #ccc;}
+.m-form #btn01{display: block;border: none; width: 300px;height: 35px; background: #cccccc;color: #fff;text-align: center;font-size: 20px;line-height: 35px;margin: 10px 0 0 40px;border-radius: 5px;}
+
+.m-form #btn01.active{display: block;border: 1px solid #f40; width: 300px;height: 35px; background: #f1f1f1;color: #f40;text-align: center;font-size: 20px;line-height: 35px;margin: 10px 0 0 40px;border-radius: 5px;}
+#zhezhao{width: 380px;height: 460px;background: rgba(0,0,0,.5);position: absolute;left: 0px;top: 0px;display: none;}
+
+#inform{width: 310px;height: 170px;position: absolute;left: 40px;top: 147px;background: #fff;border-radius: 5px;display: none;}
+#inform h3{width: 310px;height: 45px;font-size: 20px;text-align: center;line-height: 45px;}
+#inform h4{width: 310px;height: 70px;font-size: 16px;text-align: center;line-height: 70px;border-bottom: 1px solid #ccc;}
+#inform h5{width: 310px;height: 45px;font-size: 20px;text-align: center;line-height: 45px;color: #f40;cursor: pointer;}
+
+
+
+
+
+
+
+
+

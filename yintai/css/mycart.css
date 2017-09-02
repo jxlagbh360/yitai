@@ -1,0 +1,46 @@
+
+.cart-content{width: 1190px;margin: 0 auto;}
+.cart-list-detail{width:1190px;border: 1px solid #e6e6e6;background: #fafafa;margin: 0 auto;}
+.cart-list-detail .cart-list-tit{overflow: hidden;border-bottom: 1px solid #e6e6e6;}
+.cart-list-tit li{float: left;width: 120px;text-align: center;color: #666;line-height: 44px;}
+.cart-list-tit li.allsectel{width: 60px;}
+.cart-list-tit li.ordergoods{width: 538px;}
+
+.cart-list {width:100%;background: #fff;border-bottom: 1px solid #e6e6e6;}
+.cart-list li{float: left;width: 120px;height: 40px;text-align: center;margin-top: 25px;}
+.cart-title{width: 1190px;margin: 0 auto;}
+
+.cart-list .alone-selected{width: 60px;}
+.cart-list .goods-content{width:538px;height:80px;margin: 8px 0px;text-align: left;}
+.cart-list .goods-content .goods-sampic{display:inline-block;width: 60px;height: 60px;vertical-align: top;}
+.cart-list .goods-content .goods-sampic img{width: 50px;height: 50px;margin: 0 auto;}
+.cart-list .goods-content .goods-items{display:inline-block;}
+.cart-list .goods-content .goods-items h5{height: 40px;}
+.cart-list .goods-content .goods-items span{padding: 0px 4px;color: #999;}
+.cart-list .goodsnumber span{display:inline-block;width: 30px;height: 20px;border: 1px solid #e6e6e6;vertical-align: top;cursor: pointer;}
+.cart-list .goodsnumber input[type="text"]{width: 32px;height: 20px;outline: none;border: none;border: 1px solid #999;vertical-align: top;text-align: center;}
+.cart-list li.discount{color: #ff7800;}
+.cart-list li.discount .discount-price{display: block;}
+.cart-list li.unitprice{color: #c81417;}
+
+.discount-time{clear: both;height: 50px;line-height: 50px;color: #ff7800;text-indent: 4em;}
+.cart-list li .collection{display: block;cursor: pointer;}
+.cart-list li .delted{padding-left: 35px;padding-top: 5px;cursor: pointer;}
+
+.car-wind{width: 1198px;height: 40px;background: #e6e6e6;margin: 25px 0px;padding: 25px 0px;}
+.car-wind .total{width: 95%;margin:0 auto;}
+.car-wind .total .operation ul li{float: left;margin-right: 20px;}
+.car-wind .total .carwindb{margin-left: 60px;}
+.car-wind .total .carwindb li:last-child{text-align: right;}
+.car-wind .total .allPrice{margin-left: 30px;}
+input[type="checkbox"] {vertical-align: middle;}
+
+
+
+
+
+
+
+.car-wind .total div{display: inline-block;}
+.car-wind .total .settlement{float: right;}
+.car-wind .total .settlement a{display:inline-block;width: 140px;height:40px;line-height:40px;font-size: 16px;color: #fff;text-align: center;background: #ff3344;}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			* {margin: 0; padding: 0; border: none;}
+			ul,li {list-style: none;}
+			#nav {
+				position: fixed;
+				left: 40px;
+				top: 25%;
+			}
+			#nav ul {
+				border: 1px solid #ccc;
+			}
+			#nav li {
+				width: 30px;
+				height: 30px;
+				border-bottom: 1px dashed #ccc;
+				text-align: center;
+				line-height: 30px;
+				font-size: 14px;
+				cursor: pointer;
+				position: relative;
+			}
+			#nav li span.active {
+				display: block;
+				background: white;
+				color: #f45;
+			}
+			#nav li:hover span {
+				display: block;
+			}
+			#nav li span {
+				display: none;
+				background: #f45;
+				color: white;
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				font-size: 12px;
+				text-align: center;
+			}
+			
+			#head, #foot, #main div {
+				width: 100%;
+				height: 600px;
+				font-size: 100px;
+				text-align: center;
+				line-height: 600px;
+			}
+			
+		</style>
+		
+		<script src="js/jquery-1.12.3.js"></script>
+		<script>
+			$(function(){
+				
+				
+				//点击楼层按钮, 让页面滚动到对应的楼层
+				$("#nav li").click(function(){
+					$(this).find("span").addClass("active")
+					.parent().siblings().find("span").removeClass("active");
+					
+					var index = $(this).index();
+					
+					var top = $("#main div").eq(index).offset().top;  
+					
+					//动画移动
+					$(window).off("scroll");
+					$("html,body").animate({scrollTop:top}, 500, function(){
+						$(window).scroll(fn);
+					});
+					
+				})
+				
+				//页面滚动时，让对应楼层的按钮选中
+				$(window).scroll(fn);
+				function fn(){
+					var scrollTop = $(window).scrollTop();
+					//console.log(scrollTop);
+					
+					var index = 0;
+					$("#main div").each(function(){
+						var top = $(this).offset().top;
+						var winH = $(window).height();
+						console.log(scrollTop);
+					console.log(scrollTop + winH/2);
+					console.log(top);
+						if (scrollTop + winH/2 >= top) {
+							index = $(this).index();
+						}
+					})
+					//console.log(index);
+					
+					$("#nav li").eq(index).find("span").addClass("active")
+					.parent().siblings().find("span").removeClass("active");
+
+				}
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div id="nav">
+			<ul>
+				<li>1F<span class="active">服饰</span></li>
+				<li>2F<span>美妆</span></li>
+				<li>3F<span>手机</span></li>
+				<li>4F<span>家电</span></li>
+				<li>5F<span>数码</span></li>
+				<li>6F<span>运动</span></li>
+				<li>7F<span>居家</span></li>
+				<li>8F<span>母婴</span></li>
+				<li>9F<span>食品</span></li>
+				<li>10F<span>图书</span></li>
+				<li>11F<span>服务</span></li>
+			</ul>
+		</div>
+		
+		<div id="head" style="background: #22aa88;">Head</div>
+		<div id="main">
+			<div style="background: #cccc11;">1F服饰</div>
+			<div style="background: #11cc11;">2F美妆</div>
+			<div style="background: #cc1111;">3F手机</div>
+			<div style="background: #11ffff;">4F家电</div>
+			<div style="background: #ccff11;">5F数码</div>
+			<div style="background: #dd33ff;">6F运动</div>
+			<div style="background: #66cc66;">7F居家</div>
+			<div style="background: #cc6611;">8F母婴</div>
+			<div style="background: #aacc11;">9F食品</div>
+			<div style="background: #cc3311;">10F图书</div>
+			<div style="background: #ffcc33;">11F服务</div>
+		</div>
+		<div id="foot" style="background: #22aa88;">Foot</div>
+		
+		
+	</body>
+</html>

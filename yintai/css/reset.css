@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/**{magrin:0;padding:0}*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,dt,dd,li,dl,div,input,button,p{margin:0;padding:0;}
+body,html{font-family:"微软雅黑","Arail";font-size:12px;line-height:20px;}
+li{list-style:none;}
+a{text-decoration:none;color: #999;}
+input,button{outline:none;border: none;}
+img{border:0;}
+i,em{font-style:normal;}
+b,strong,h1,h2,h3,h4,h5,h6{font-weight:100;}
+.ind{text-indent:2em;}
+.clear:after{content:'.';display:block;height:0;overflow:hidden;clear:both;visibility:hidden;}
+
+
+@font-face {font-family: "iconfont";
+  src: url('../iconfont/iconfont.eot?t=1499238897913'); /* IE9*/
+  src: url('../iconfont/iconfont.eot?t=1499238897913#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../iconfont/iconfont.woff?t=1499238897913') format('woff'), /* chrome, firefox */
+  url('../iconfont/iconfont.ttf?t=1499238897913') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../iconfont/iconfont.svg?t=1499238897913#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size: 16px;
+
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+

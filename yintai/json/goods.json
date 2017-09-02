@@ -1,0 +1,63 @@
+
+[
+	{
+		"id": 101,
+		"img1":["images/goods/thumbnail_1.jpg","images/goods/thumbnail_2.jpg","images/goods/thumbnail_3.jpg","images/goods/thumbnail_4.jpg","images/goods/thumbnail_5.jpg"],
+		"img2":["images/goods/small_1.jpg","images/goods/small_2.jpg","images/goods/small_3.jpg","images/goods/small_4.jpg","images/goods/small_5.jpg"],
+		"img3":"images/goods/thumbnail_1.jpg",
+		"img4":"images/goods/big_1.jpg",
+		"name": "左岸ZUOAN个性星星绣花短袖T恤1",
+		"price1": "159.00",
+		"unit": "￥",
+		"price2":"289.00",
+		"color":"白色"
+	},
+	{
+		"id": 102,
+		"img1":["images/goods/thumbnail_6.jpg","images/goods/thumbnail_7.jpg","images/goods/thumbnail_8.jpg","images/goods/thumbnail_9.jpg","images/goods/thumbnail_10.jpg"],
+		"img2":["images/goods/small_6.jpg","images/goods/small_7.jpg","images/goods/small_8.jpg","images/goods/small_9.jpg","images/goods/small_10.jpg"],
+		"img3":"images/goods/thumbnail_6.jpg",
+		"img4":"images/goods/big_6.jpg",
+		"name": "左岸ZUOAN个性星星绣花短袖T恤2",
+		"price1": "169.00",
+		"unit": "￥",
+		"price2":"289.00",
+		"color":"黑色"
+	},
+	{
+		"id": 103,
+		"img1":["images/goods/thumbnail_11.jpg","images/goods/thumbnail_12.jpg","images/goods/thumbnail_13.jpg","images/goods/thumbnail_14.jpg","images/goods/thumbnail_15.jpg"],
+		"img2":["images/goods/small_11.jpg","images/goods/small_12.jpg","images/goods/small_13.jpg","images/goods/small_14.jpg","images/goods/small_15.jpg"],
+		"img3":"images/goods/thumbnail_11.jpg",
+		"img4":"images/goods/big_11.jpg",
+		"name": "左岸ZUOAN个性星星绣花短袖T恤3",
+		"price1": "179.00",
+		"unit": "￥",
+		"price2":"289.00",
+		"color":"绿色"
+	},
+	{
+		"id": 104,
+		"img1":["images/goods/thumbnail_16.jpg","images/goods/thumbnail_17.jpg","images/goods/thumbnail_18.jpg","images/goods/thumbnail_19.jpg","images/goods/thumbnail_20.jpg"],
+		"img2":["images/goods/small_16.jpg","images/goods/small_17.jpg","images/goods/small_18.jpg","images/goods/small_19.jpg","images/goods/small_20.jpg"],
+		"img3":"images/goods/thumbnail_16.jpg",
+		"img4":"images/goods/big_16.jpg",
+		"name": "左岸ZUOAN个性星星绣花短袖T恤4",
+		"price1": "189.00",
+		"unit": "￥",
+		"price2":"289.00",
+		"color":"灰色"
+	},
+	{
+		"id": 105,
+		"img1":["images/goods/thumbnail_21.jpg","images/goods/thumbnail_22.jpg","images/goods/thumbnail_23.jpg","images/goods/thumbnail_24.jpg","images/goods/thumbnail_25.jpg"],
+		"img2":["images/goods/small_21.jpg","images/goods/small_22.jpg","images/goods/small_23.jpg","images/goods/small_24.jpg","images/goods/small_25.jpg"],
+		"img3":"images/goods/thumbnail_21.jpg",
+		"img4":"images/goods/big_21.jpg",
+		"name": "左岸ZUOAN个性星星绣花短袖T恤5",
+		"price1": "199.00",
+		"unit": "￥",
+		"price2":"289.00",
+		"color":"紫色"
+	}
+]

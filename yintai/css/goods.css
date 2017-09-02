@@ -1,0 +1,163 @@
+.b-list01{display: none;}
+/*商品详情下部详情*/
+#main-goods{width: 1190px;display: flex;margin: 0 auto;}
+/*主体部分*/
+#main01-wrapper{height: 750px;background:#eeeeee;}
+.main{width: 1190px;height: 750px;margin: 0 auto;background: #f4f4f4;}
+.main .m-top{width: 1170px;height: 35px;padding: 15px 0 0 20px}
+.m-top a{font-size: 14px;}
+.m-bottom{height: 700px;width: 1190px;background: #fff;}
+.m-bottom .m-b-left{width: 440px;height: 680px;padding: 20px 0 0 60px;float: left;}
+
+/*放大镜开始*/
+
+    #magnifier {
+      position: relative;
+      width: 350px;
+     /*height: 600px;*/
+    }
+    .small-box {
+      position: relative;
+      width: 300px;
+      height: 400px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      
+    }
+    .small-box .small-img {
+	width: 300px;
+  	height: 400px;	
+  	display: block;
+  	/*border: 1px solid #eee;*/
+    }
+    .small-box .hover {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 200px;
+      height: 200px;
+      border: 1px solid #aaa;
+      background: #0099ff;
+      opacity: .5;
+      filter: alpha(opacity: 50);
+      cursor: move;
+    }
+    .thumbnail-box {
+      position: relative;
+      width: 100%;
+    }
+    .thumbnail-box .btn {
+      position: absolute;
+      top: 50%;
+      width: 22px;
+      height: 32px;
+      margin-top: -16px;
+    }
+    .thumbnail-box .btn-prev {
+      left: 0;
+      background: url(../images/images/btn_prev.png) no-repeat;
+    }
+    .thumbnail-box .btn-next {
+      right: 0;
+      background: url(../images/images/btn_next.png) no-repeat;
+    }
+    .thumbnail-box .list {
+      overflow: hidden;
+      width: 290px;
+      margin-left: 20px;
+    }
+    .thumbnail-box .wrapper {
+      width: 400px;
+    }
+    .thumbnail-box .list .item {
+    	width: 60px;height: 65px;
+    	float: left;
+      margin: 0 6px;
+    }
+    /*.thumbnail-box .list li{width: 58px;height: 58px;float: ;}*/
+    /*.thumbnail-box .list .item-cur {}*/
+    .thumbnail-box .list .item img {
+    	width: 58px;height: 58px;
+      border: 2px solid #fff;
+    }
+
+    
+    .thumbnail-box .list .item-cur img {
+    	display: block;
+    	float: left;
+    	width: 58px ;height: 58px;
+      border: 2px solid #e53e41;
+    }
+    .big-box{
+    	
+      display: none;
+      overflow: hidden;
+      position: absolute;
+      left: 400px;
+      top: 0;
+      width: 300px;
+      height: 400px;
+      border: 1px solid #e4e4e4;
+      z-index: 1;
+    }
+    .big-box img{
+    	width: 600px;
+    	height: 800px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      
+    }
+
+/*放大镜结束*/
+
+/*商品详情*/
+.m-b-middle{width: 500px;height: 680px;float: left;padding-top: 20px; /*background: #f40;*/}
+.goods-info{width: 500px;height: 330px;/*background: #ccc;*/}
+.goods-info h2{width: 500px;height: 27px;font:normal 18px/1.5 "Microsoft Yahei",Verdana,simsun,serif;color: #000; margin-bottom: 30px;}
+.priceInfo{width: 500px; color:#999;font-size: 0;margin-bottom: 30px;cursor: default;}
+.YTprice{height: 25px;line-height: 25px;vertical-align: middle;font-size: 14px;margin-bottom: 15px;}
+.YTprice span{line-height: 25px;font-size: 14px;}
+.yt-num{color: #e5004f;font-size: 24px;vertical-align: baseline;display: inline-block;}
+.yt-num em{font-weight: 400px;}
+
+.marketPrice{line-height: 15px;font-size: 14px;margin: 12px 0;}
+.marketPrice .marketPriceNum{line-height: 15px;margin: 5px 0;}
+.marketPrice .prev-price{text-decoration: line-through;margin-right: 2px;}
+
+/*选择颜色 尺码 购买 加入购物车*/
+.choses{width: 500px;height:188px; position: relative;}
+.choses .choseColor{width: 500px;height: 50px;}
+.choseColor dt{float: left;color: #999;line-height: 20px;width: 100px;}
+.choseColor .colors{float: left;overflow: hidden;width: 370px;}
+.colors .item{display: inline-block;width: 60px;height: 35px; margin: 0 5px 5px 0;position: relative;border: 2px solid #f40;padding-top: 5px;}
+.colors .item b{display: none; position: absolute;bottom: 0;right: 0;width: 10px;height: 10px;overflow: hidden;background: url(../images/goods/icon.png) no-repeat 0 -240px;}
+.colors .item img{width: 20px;height: 30px;}
+
+.choseSize{width: 500px;height: 60px;margin-top: 20px;}
+.choseSize dt{float: left;color: #999;line-height: 20px;width: 100px;}
+.choseSize .sizes{float: left;overflow: hidden;width: 370px;}
+.sizeIntro{width: 370px;height: 20px;margin-bottom: 10px;}
+.choseSize .sizes a{display: block;float: left;width: 50px;height: 25px;margin-right: 5px;position: relative;text-align: center;vertical-align: middle;font-size: 16px;}
+.choseSize .sizes .active{display: block;float: left;width: 50px;height: 25px;margin-right: 5px;border: 2px solid #f40;position: relative;text-align: center;vertical-align: middle;font-size: 16px;}
+
+.choseSize .sizes a b{display: none; width: 10px;height: 10px;position: absolute;right: 0;bottom: 0; background: url(../images/goods/icon.png) no-repeat 0 -240px;}
+
+.p-buy{width: 500px;height: 50px;margin-top: 20px;}
+.p-buyNum{width: 90px;height: 40px;border: 1px solid #ccc;float: left;position: relative;margin-right: 10px;}
+.p-buy input{width: 30px;height: 40px;font-size: 20px;padding-left: 20px;}
+.p-buyNum span{display: block;width:40px;height: 22px;background: #eee;text-align: center;vertical-align: middle;cursor: pointer;}
+.p-buyNum .p-num-add{position: absolute;top: 0;right:0;}
+.p-buyNum .p-num-red{position: absolute;bottom: 0;right:0;}
+.p-buy button{color: #fff;font-size: 16px;}
+.p-buy .buynow{color: #f40; width: 150px;height: 40px;border: 1px solid #f40;background: pink;margin-right: 10px;cursor: pointer;}
+.p-buy .incart{width: 150px;height: 40px;background: #f40;border: none;cursor: pointer;}
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+[
+	
+	{
+		"id": 101,
+		"img01": "images/banner01.jpg",
+		"img02": "images/banner-w01.jpg"
+	}, 
+	{
+		"id": 102,
+		"img01": "images/banner02.jpg",
+		"img02": "images/banner-w02.jpg"
+	},
+	{
+		"id": 103,
+		"img01": "images/banner03.jpg",
+		"img02": "images/banner-w03.jpg"
+	}, 
+	{
+		"id": 104,
+		"img01": "images/banner04.jpg",
+		"img02": "images/banner-w04.jpg"
+	}
+	, 
+	{
+		"id": 105,
+		"img01": "images/banner05.jpg",
+		"img02": "images/banner-w05.jpg"
+	}
+]
+
+

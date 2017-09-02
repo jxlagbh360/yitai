@@ -1,0 +1,24 @@
+
+#main{width: 1190px;overflow: hidden;margin: 0 auto;}
+#list{width: 1190px;/*height:600px; */padding: 20px;background: #ccc;display: flex;}
+#list li{width: 223px;height: 450px;float: left;background: #fff;margin-right: 10px;}
+#list li .bigImg{width: 220px;height: 300px;cursor: pointer;}
+#list li .smallImg{width: 50px;height: 60px;cursor: pointer;}
+#list li .price{color: #f40;}
+.price span{color: #ccc;text-decoration: line-through;}
+.describe{line-height: 20px;cursor: pointer;}
+.describe:hover{color: #f40;text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
